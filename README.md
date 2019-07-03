@@ -15,7 +15,7 @@ Just copy this script to your ARTIK-520 and run as root.
 
 Your SD Card should have the same version of the OS on it as the ARTIK-5 is already running, whatever that OS is. This has **ONLY** been tested on the Samsung Artik-520 Fedora (22 & 24) distros, so if you're using something else, you should really test it first. 
 
-It will re-partition your SD Card to expand partition 3 to be as large as possible. In case there are some odd layout characteristics, it will find the existing first sector of partition 3, and the total number of available secotrs, and calculate the correct partition map from there. 
+It will re-partition your SD Card to expand partition 3 to be as large as possible. In case there are some odd layout characteristics, it will find the existing first sector of partition 3, and the total number of available sectors, and calculate the correct partition map from there. 
 
 In order to catch any customizations you may have done, the script will ask you 2 questions:
 
